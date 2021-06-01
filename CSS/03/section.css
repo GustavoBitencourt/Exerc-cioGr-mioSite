@@ -1,0 +1,131 @@
+section {
+    width: 100%;
+    height: 70vh;
+    background-image: url("../../IMG/03/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-container {
+    width: 40%;
+    height: 80%;
+    /* background-color: blueviolet; */
+}
+
+section .section-container .title {
+    width: 100%;
+    height: 15%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20pt;
+    font-family: 'Arial', sans-serif;
+}
+
+section .section-container .imagens {
+    width: 100%;
+    height: 40%;
+    /* background-color: #3f3f3f; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section .section-container .imagens p {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 40pt;
+    font-family: 'Arial';
+}
+
+section .section-container .imagens IMG {
+    width: 20%;
+    min-width: 100px;
+}
+
+section .section-container .sub-title {
+    width: 100%;
+    height: 5%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16pt;
+    font-family: 'Arial', sans-serif;
+}
+
+section .section-container .infos {
+    margin-top: 30px;
+    width: 100%;
+    height: 25%;
+    /*background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* INFORMAÇẼES 1 */
+
+section .section-container .infos .info-1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+section .section-container .infos .info-1 IMG {
+    width: 5%;
+}
+
+
+/* INFORMAÇẼES 2 */
+
+section .section-container .infos .info-2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+section .section-container .infos .info-2 IMG {
+    width: 4%;
+}
+
+
+/* INFORMAÇẼES 3 */
+
+section .section-container .infos .info-3 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+section .section-container .infos .info-3 IMG {
+    width: 4%;
+}
